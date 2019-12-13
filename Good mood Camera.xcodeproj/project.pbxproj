@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756D0C6F23A3C17C00822584 /* FilterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D0C6E23A3C17C00822584 /* FilterSetting.swift */; };
+		7572267E239D71D50045BCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572267D239D71D50045BCFB /* AppDelegate.swift */; };
+		75722680239D71D50045BCFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7572267F239D71D50045BCFB /* SceneDelegate.swift */; };
+		75722682239D71D50045BCFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75722681239D71D50045BCFB /* ViewController.swift */; };
+		75722685239D71D50045BCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75722683239D71D50045BCFB /* Main.storyboard */; };
+		75722687239D71DA0045BCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75722686239D71DA0045BCFB /* Assets.xcassets */; };
+		7572268A239D71DA0045BCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75722688239D71DA0045BCFB /* LaunchScreen.storyboard */; };
+		75D61D54239DA2D20043B572 /* ThemeOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D61D53239DA2D20043B572 /* ThemeOptionsViewController.swift */; };
+		75D61D56239DA4DB0043B572 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D61D55239DA4DB0043B572 /* PhotoAlbumViewController.swift */; };
+		75D61D58239DB2970043B572 /* PolaroidCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D61D57239DB2970043B572 /* PolaroidCameraViewController.swift */; };
+		75D61D5A239DB2B00043B572 /* PictureCollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D61D59239DB2B00043B572 /* PictureCollageViewController.swift */; };
+		75F621A2239FA32800E6E966 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F621A1239FA32800E6E966 /* CameraController.swift */; };
+		75F621A423A122BF00E6E966 /* FilterFunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F621A323A122BF00E6E966 /* FilterFunctionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		756D0C6E23A3C17C00822584 /* FilterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSetting.swift; sourceTree = "<group>"; };
+		7572267A239D71D50045BCFB /* Good mood Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good mood Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7572267D239D71D50045BCFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7572267F239D71D50045BCFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75722681239D71D50045BCFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75722684239D71D50045BCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75722686239D71DA0045BCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75722689239D71DA0045BCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7572268B239D71DA0045BCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D61D53239DA2D20043B572 /* ThemeOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOptionsViewController.swift; sourceTree = "<group>"; };
+		75D61D55239DA4DB0043B572 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		75D61D57239DB2970043B572 /* PolaroidCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolaroidCameraViewController.swift; sourceTree = "<group>"; };
+		75D61D59239DB2B00043B572 /* PictureCollageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollageViewController.swift; sourceTree = "<group>"; };
+		75F621A1239FA32800E6E966 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		75F621A323A122BF00E6E966 /* FilterFunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFunctionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75722677239D71D50045BCFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75722671239D71D50045BCFB = {
+			isa = PBXGroup;
+			children = (
+				7572267C239D71D50045BCFB /* Good mood Camera */,
+				7572267B239D71D50045BCFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7572267B239D71D50045BCFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7572267A239D71D50045BCFB /* Good mood Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7572267C239D71D50045BCFB /* Good mood Camera */ = {
+			isa = PBXGroup;
+			children = (
+				7572267D239D71D50045BCFB /* AppDelegate.swift */,
+				7572267F239D71D50045BCFB /* SceneDelegate.swift */,
+				75722691239D71EC0045BCFB /* Model */,
+				75722692239D71F70045BCFB /* View */,
+				75722693239D71FD0045BCFB /* Controller */,
+				7572268B239D71DA0045BCFB /* Info.plist */,
+			);
+			path = "Good mood Camera";
+			sourceTree = "<group>";
+		};
+		75722691239D71EC0045BCFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75F621A1239FA32800E6E966 /* CameraController.swift */,
+				756D0C6E23A3C17C00822584 /* FilterSetting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75722692239D71F70045BCFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75722688239D71DA0045BCFB /* LaunchScreen.storyboard */,
+				75722683239D71D50045BCFB /* Main.storyboard */,
+				75722686239D71DA0045BCFB /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75722693239D71FD0045BCFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75722681239D71D50045BCFB /* ViewController.swift */,
+				75D61D53239DA2D20043B572 /* ThemeOptionsViewController.swift */,
+				75D61D57239DB2970043B572 /* PolaroidCameraViewController.swift */,
+				75D61D55239DA4DB0043B572 /* PhotoAlbumViewController.swift */,
+				75F621A323A122BF00E6E966 /* FilterFunctionViewController.swift */,
+				75D61D59239DB2B00043B572 /* PictureCollageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75722679239D71D50045BCFB /* Good mood Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7572268E239D71DA0045BCFB /* Build configuration list for PBXNativeTarget "Good mood Camera" */;
+			buildPhases = (
+				75722676239D71D50045BCFB /* Sources */,
+				75722677239D71D50045BCFB /* Frameworks */,
+				75722678239D71D50045BCFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Good mood Camera";
+			productName = "Good mood Camera";
+			productReference = 7572267A239D71D50045BCFB /* Good mood Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75722672239D71D50045BCFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					2,
+				);
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = StanleyAppWorld;
+				TargetAttributes = {
+					75722679239D71D50045BCFB = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 75722675239D71D50045BCFB /* Build configuration list for PBXProject "Good mood Camera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75722671239D71D50045BCFB;
+			productRefGroup = 7572267B239D71D50045BCFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75722679239D71D50045BCFB /* Good mood Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75722678239D71D50045BCFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7572268A239D71DA0045BCFB /* LaunchScreen.storyboard in Resources */,
+				75722687239D71DA0045BCFB /* Assets.xcassets in Resources */,
+				75722685239D71D50045BCFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75722676239D71D50045BCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756D0C6F23A3C17C00822584 /* FilterSetting.swift in Sources */,
+				75D61D5A239DB2B00043B572 /* PictureCollageViewController.swift in Sources */,
+				75722682239D71D50045BCFB /* ViewController.swift in Sources */,
+				7572267E239D71D50045BCFB /* AppDelegate.swift in Sources */,
+				75D61D54239DA2D20043B572 /* ThemeOptionsViewController.swift in Sources */,
+				75D61D58239DB2970043B572 /* PolaroidCameraViewController.swift in Sources */,
+				75D61D56239DA4DB0043B572 /* PhotoAlbumViewController.swift in Sources */,
+				75F621A2239FA32800E6E966 /* CameraController.swift in Sources */,
+				75F621A423A122BF00E6E966 /* FilterFunctionViewController.swift in Sources */,
+				75722680239D71D50045BCFB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75722683239D71D50045BCFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75722684239D71D50045BCFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75722688239D71DA0045BCFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75722689239D71DA0045BCFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7572268C239D71DA0045BCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7572268D239D71DA0045BCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7572268F239D71DA0045BCFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2KB5DX622;
+				INFOPLIST_FILE = "Good mood Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleyappworld.Good-mood-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75722690239D71DA0045BCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2KB5DX622;
+				INFOPLIST_FILE = "Good mood Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleyappworld.Good-mood-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75722675239D71D50045BCFB /* Build configuration list for PBXProject "Good mood Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7572268C239D71DA0045BCFB /* Debug */,
+				7572268D239D71DA0045BCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7572268E239D71DA0045BCFB /* Build configuration list for PBXNativeTarget "Good mood Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7572268F239D71DA0045BCFB /* Debug */,
+				75722690239D71DA0045BCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75722672239D71D50045BCFB /* Project object */;
+}
